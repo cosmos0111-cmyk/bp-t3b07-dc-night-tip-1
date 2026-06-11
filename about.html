@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>등촌 유흥 꿀팁 | 등촌에서 즐기는 진짜 밤 문화 가이드</title>
+    <meta name="description" content="등촌 유흥, 어디서 시작할지 막막하다면? 현지 브로들이 알려주는 꿀팁 대방출. 찐 추천 업소와 분위기 좋은 숨은 맛집까지, 등촌 밤의 모든 것.">
+    <meta name="keywords" content="등촌 유흥, 등촌 꿀팁, 등촌 밤문화, 등촌 술집 추천, 등촌 놀거리, 등촌 데이트, 등촌 유흥 정보">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <link rel="canonical" href="https://t3b07-dc-night-tip-1.vercel.app">
+    <meta property="og:title" content="등촌 유흥 꿀팁 | 등촌에서 즐기는 진짜 밤 문화 가이드">
+    <meta property="og:description" content="등촌 유흥, 어디서 시작할지 막막하다면? 현지 브로들이 알려주는 꿀팁 대방출. 찐 추천 업소와 분위기 좋은 숨은 맛집까지, 등촌 밤의 모든 것.">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #faf8f5;
+            color: #1f1e1c;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* 헤더 & 네비게이션 */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e6e2dc;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        .logo {
+            font-weight: 600;
+            font-size: 1.2rem;
+            letter-spacing: -0.02em;
+            color: #b45f3b;
+            text-decoration: none;
+        }
+        .logo span {
+            background: #b45f3b;
+            color: white;
+            padding: 0.1rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-left: 0.4rem;
+            vertical-align: middle;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #3a3530;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #b45f3b;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 4px 0;
+        }
+        .hamburger span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background: #3a3530;
+            border-radius: 4px;
+            transition: 0.2s;
+        }
+        .mobile-menu {
+            display: none;
+            background: #ffffff;
+            border-top: 1px solid #e6e2dc;
+            padding: 1rem 1.5rem 1.5rem;
+        }
+        .mobile-menu a {
+            display: block;
+            padding: 0.6rem 0;
+            text-decoration: none;
+            color: #3a3530;
+            font-weight: 500;
+            border-bottom: 1px solid #f0ece6;
+        }
+        .mobile-menu a:last-child {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .mobile-menu.active {
+                display: block;
+            }
+        }
+
+        /* 히어로 섹션 */
+        .hero {
+            padding: 4rem 0 3rem;
+            text-align: center;
+            background: #fdfaf7;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #2b2622;
+            max-width: 800px;
+            margin: 0 auto 0.75rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #5f554b;
+            max-width: 640px;
+            margin: 0 auto 2rem;
+        }
+        .hero .tel-link {
+            display: inline-block;
+            background: #b45f3b;
+            color: white;
+            padding: 0.7rem 2rem;
+            border-radius: 40px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(180, 95, 59, 0.25);
+            transition: background 0.2s;
+        }
+        .hero .tel-link:hover {
+            background: #9e4f2e;
+        }
+
+        /* 카드 그리드 */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+            padding: 3rem 0 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 1.8rem 1.5rem;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+            border: 1px solid #ece7e0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+        }
+        .card h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+            color: #2b2622;
+        }
+        .card p {
+            color: #4d443c;
+            margin-bottom: 1rem;
+        }
+        .card .badge {
+            background: #efe7df;
+            color: #6b4f3a;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        /* 섹션 타이틀 */
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 2rem 0 1rem;
+            letter-spacing: -0.02em;
+            color: #2b2622;
+            border-left: 6px solid #b45f3b;
+            padding-left: 1rem;
+        }
+
+        /* FAQ */
+        .faq-list {
+            margin: 2.5rem 0 4rem;
+        }
+        .faq-item {
+            background: white;
+            border-radius: 20px;
+            padding: 1.5rem 1.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ece7e0;
+        }
+        .faq-item strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.4rem;
+            color: #2b2622;
+        }
+        .faq-item p {
+            color: #4d443c;
+        }
+
+        /* 푸터 */
+        footer {
+            border-top: 1px solid #e6e2dc;
+            padding: 2rem 0;
+            text-align: center;
+            color: #6b5f54;
+            font-size: 0.85rem;
+        }
+
+        /* 반응성 개선 */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="#" class="logo">등촌브로<span>BRO</span></a>
+            <nav>
+                <a href="#">홈</a>
+                <a href="#">꿀팁</a>
+                <a href="#">맛집</a>
+                <a href="#">문의</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">홈</a>
+            <a href="#">꿀팁</a>
+            <a href="#">맛집</a>
+            <a href="#">문의</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>등촌 유흥,<br>브로가 알려주는 찐 꿀팁</h1>
+                <p>등촌에서 놀 준비 됐어? 내가 3년 동안 다닌 현지 스팟과 분위기 좋은 숨은 곳들만 모았다. 유흥부터 맛집까지 한 방에 끝내자.</p>
+                <a href="tel:+82212345678" class="tel-link">지금 전화로 물어보기</a>
+                <div style="margin-top: 1.2rem; color:#8a7a6b; font-size:0.9rem;">✨ 현지 브로 직통 • 10초 컨설팅</div>
+            </div>
+        </section>
+
+        <div class="container">
+            <h2 class="section-title">오늘의 찐 추천 업소</h2>
+            <div class="grid">
+                <div class="card">
+                    <span class="badge">🔥 인기</span>
+                    <h3>더 라운지 등촌</h3>
+                    <p>감성 조명 + 재즈 라이브. 와인바인 줄 알았는데 숨은 유흥 포인트. 브로가 보증하는 분위기 맛집.</p>
+                    <a href="#" style="color:#b45f3b; font-weight:500;">자세히 보기 →</a>
+                </div>
+                <div class="card">
+                    <span class="badge">🍸 칵테일</span>
+                    <h3>스피크이지 1947</h3>
+                    <p>등촌 골목에 숨은 스피크이지 바. 시그니처 칵테일 '등촌 브리즈'는 무조건 시켜. 입구가 깜찍하게 숨겨져 있어.</p>
+                    <a href="#" style="color:#b45f3b; font-weight:500;">자세히 보기 →</a>
+                </div>
+                <div class="card">
+                    <span class="badge">🥩 고기+소주</span>
+                    <h3>형제 정육</h3>
+                    <p>고기 먹고 소주 털기엔 이만한 곳 없어. 현지인 단골 80%는 여기서 시작한다. 늦은 시간까지 북적북적.</p>
+                    <a href="#" style="color:#b45f3b; font-weight:500;">자세히 보기 →</a>
+                </div>
+                <div class="card">
+                    <span class="badge">🎤 노래방</span>
+                    <h3>코인노래방 '핑크퐁'</h3>
+                    <p>코인 한 움큼으로 새벽까지. 등촌 젊은이들 성지. 사장님이 엄청 친절해서 자꾸 가게 돼.</p>
+                    <a href="#" style="color:#b45f3b; font-weight:500;">자세히 보기 →</a>
+                </div>
+            </div>
+
+            <h2 class="section-title">등촌 유흥, 이렇게 즐겨</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));">
+                <div class="card">
+                    <h3>1차는 가볍게</h3>
+                    <p>등촌역 3번 출구 앞 포차에서 소맥 한잔. 분위기 부담 없고 사람 냄새 나는 게 매력.</p>
+                </div>
+                <div class="card">
+                    <h3>2차는 칵테일</h3>
+                    <p>위에 소개한 스피크이지 1947 강추. 술을 좀 아는 척 하고 싶다면 여기로.</p>
+                </div>
+                <div class="card">
+                    <h3>3차는 고기</h3>
+                    <p>형제 정육에서 삼겹살에 소주 털고 나면 하루가 완성. 가성비도 좋아.</p>
+                </div>
+                <div class="card">
+                    <h3>마무리는 노래방</h3>
+                    <p>핑크퐁 코인노래방에서 실컷 떠들고 귀가. 등촌 밤의 정석.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">브로만 아는 숨은 맛집</h2>
+            <div class="grid">
+                <div class="card">
+                    <span class="badge">🌙 야식</span>
+                    <h3>등촌짬뽕</h3>
+                    <p>해장국 짬뽕으로 유명. 술 먹고 속 풀 때 딱이야. 국물이 시원하고 해산물 푸짐.</p>
+                </div>
+                <div class="card">
+                    <span class="badge">🍜 분식</span>
+                    <h3>토박이 떡볶이</h3>
+                    <p>쫄깃한 떡과 매콤달콤한 양념. 등촌 토박이들만 아는 숨은 분식. 가격도 착해.</p>
+                </div>
+                <div class="card">
+                    <span class="badge">🥟 만두</span>
+                    <h3>만두가 좋다</h3>
+                    <p>군만두가 진리. 바삭하고 속이 꽉 찼어. 새벽에도 문 열어서 굿.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">등촌 유흥 Q&A (브로가 답한다)</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <strong>Q. 등촌에서 처음 놀아보는데 어디로 가는 게 좋아?</strong>
+                    <p>브로 추천 코스: 등촌역 3번 출구 → 포차에서 1차 → 스피크이지 1947 (칵테일) → 형제 정육 (고기) → 핑크퐁 노래방. 이 루트면 밤샘 가능!</p>
+                </div>
+                <div class="faq-item">
+                    <strong>Q. 등촌 유흥 비용은 얼마나 들어?</strong>
+                    <p>보통 1인당 5~8만원이면 3차까지 가능해. 고기나 칵테일 포함해도 부담 없어. 단, 금요일은 예약 필수!</p>
+                </div>
+                <div class="faq-item">
+                    <strong>Q. 혼자 가도 괜찮아?</strong>
+                    <p>완전 괜찮아. 오히려 혼술하기 좋은 바가 많아. '더 라운지 등촌'은 혼자 와인 마시는 사람들도 자주 보여. 부담 없이 들어가.</p>
+                </div>
+                <div class="faq-item">
+                    <strong>Q. 등촌에서 데이트하기 좋은 곳?</strong>
+                    <p>분위기 좋은 건 '더 라운지 등촌'이나 '스
+</body>
+</html>
